@@ -1,0 +1,142 @@
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header,
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+.tabs {
+  text-align: center;
+  border: 2px;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.men {
+  background-color: rgba(23, 1, 1, 0.473);
+}
+.women {
+  background-color: rgba(23, 1, 1, 0.473);
+}
+
+.kids {
+  background-color: rgba(23, 1, 1, 0.473);
+}
+
+button {
+  font-family: "Inter", sans-serif;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.product {
+  display: flex;
+  flex-basis: 1;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  max-width: 250px;
+  margin: 10px;
+  padding: 15px;
+  height: 50%;
+  width: 50%;
+  position: relative;
+  display: inline-block;
+}
+
+.card h2 {
+  font-size: 120%;
+}
+
+.card img {
+  display: block;
+  width: 100%;
+  border-radius: 5%;
+}
+
+.text {
+  display: flexbox;
+}
+
+button.addToCart {
+  background-color: rgb(1, 1, 1);
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button.addToCart:hover {
+  background-color: #2980b9;
+}
+
+.title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 150px;
+  float: left;
+}
+.vender {
+  float: right;
+}
+
+.card span {
+  position: absolute;
+  top: 7%;
+  left: 22%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  color: #000000;
+  padding: 5px 10px;
+  font-size: 10px;
+  text-align: center;
+  border-radius: 5%;
+}
+
+.priceTotal {
+  float: none;
+  display: inline-flex;
+}
+.price {
+  margin-right: 35%;
+}
+.comparePrice {
+  margin-right: 35%;
+  text-decoration: line-through;
+  color: grey;
+}
+.percentage {
+  margin-right: 35%;
+  color: red;
+}
+.addToCart {
+  text-align: center;
+  margin-left: 20%;
+  border-radius: 5%;
+}
+
+.choice {
+  text-align: center;
+}
